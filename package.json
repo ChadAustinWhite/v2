@@ -1,0 +1,25 @@
+{
+  "name": "purevolvo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChadAustinWhite/v2.git"
+  },
+  "author": "chad white",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChadAustinWhite/v2/issues"
+  },
+  "homepage": "https://github.com/ChadAustinWhite/v2#readme"
+}

@@ -1,0 +1,226 @@
+@font-face {
+    font-family: 'VolvoSans';
+    src:
+        url('../fonts/volvofont.woff') format('woff'),
+        url('../fonts/volvosans_reg.ttf') format('truetype');
+}
+
+
+.container-fluid {
+    padding: 0;
+}
+
+.header {
+    padding-top: 20px;
+    padding-bottom: 12px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    background: #fff;
+    width: 100%;
+    z-index: 100;
+    margin: 0;
+}
+
+.video-row {
+    position: relative;
+    top: -50px;
+}
+
+#video-background {
+    position: relative;
+    top: 45px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -10;
+    width: 100vw;
+    margin-bottom: 50px;
+}
+
+.header_logo {
+    width: 57px;
+}
+
+.hero-content {
+    background-color: #f3f3f3;
+}
+
+.hero-headline-wrapper {
+    position: relative;
+    top: 55%;
+    color: #fff;
+    text-align: center;
+    z-index: 10;
+}
+
+body {
+    font-size: 29px;
+    line-height: 1.47059;
+    font-weight: 400;
+    letter-spacing: -0.022em;
+    margin: 0px;
+    font-family: 'VolvoSans',
+        "Arial Narrow",
+        "Helvetica Neue",
+        Helvetica,
+        Roboto,
+        Arial,
+        sans-serif;
+}
+
+.description {
+    padding: 110px 10px 160px;
+    clear: both;
+    text-align: center;
+    background-color: white;
+}
+
+.v-grid-group {
+    width: 100vw;
+    margin: 0;
+}
+
+.v-grid {
+    border: 0.5px solid #cfcfcf;
+    height: 450px;
+    background-color: white;
+}
+
+.modal .modal-body {
+    padding: 0;
+    width: 900px;
+    height: 100%;
+}
+
+.modal-content {
+    text-align: center;
+    width: 900px;
+    height: 500px;
+}
+
+.modal-lg {
+    max-width: 900px;
+}
+
+.modal-backdrop {
+    background-color: #000;
+    opacity: 1 !important;
+}
+
+.modal-video {
+    width: 100%;
+    align-self: center;
+}
+
+#grid-1:hover {
+    background: url(../img/four.jpg) no-repeat center;
+    background-size: cover;
+    background-position: center;
+    color: rgba(0, 0, 0, 0.0);
+}
+
+#grid-2:hover {
+    background: url(../img/two.jpg) no-repeat center;
+    background-size: cover;
+    background-position: center;
+    color: rgba(0, 0, 0, 0.0);
+}
+
+#grid-3:hover {
+    background: url(../img/five.jpg) no-repeat center;
+    background-size: cover;
+    background-position: center;
+    color: rgba(0, 0, 0, 0.0);
+}
+
+#grid-4:hover {
+    background: url(../img/three.jpg) no-repeat center;
+    background-size: cover;
+    background-position: center;
+    color: rgba(0, 0, 0, 0.0);
+}
+
+#grid-5:hover {
+    background: url(../img/one.jpg) no-repeat center;
+    background-size: cover;
+    background-position: center;
+    color: rgba(0, 0, 0, 0.0);
+
+}
+
+#grid-6:hover {
+    background: url(../img/one.jpg) no-repeat center;
+    background-size: cover;
+    background-position: center;
+    color: rgba(0, 0, 0, 0.0);
+}
+
+#grid-7:hover {
+    background: url(../img/one.jpg) no-repeat center;
+    background-size: cover;
+    background-position: center;
+    color: rgba(0, 0, 0, 0.0);
+}
+
+#grid-8:hover {
+    background: url(../img/one.jpg) no-repeat center;
+    background-size: cover;
+    background-position: center;
+    color: rgba(0, 0, 0, 0.0);
+}
+
+#grid-9:hover {
+    background: url(../img/one.jpg) no-repeat center;
+    background-size: cover;
+    background-position: center;
+    color: rgba(0, 0, 0, 0.0);
+}
+
+.grid-text:hover {
+    opacity: 0 !important;
+}
+
+
+.footsie {
+    padding: 100px 10px;
+    clear: both;
+    text-align: center;
+    background-color: black;
+}
+
+#footer-logo {
+    width: 256px;
+    padding-bottom: 110px;
+}
+
+.hero-headline-wrapper {
+    font-size: 80px;
+    max-width: 855px;
+    margin-left: auto;
+    margin-right: auto;
+    top: 50%;
+}
+
+
+h2 {
+    font-size: 24px;
+    margin: 44px;
+    max-width: 655px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h3 {
+    font-size: 53px;
+    line-height: 1;
+    letter-spacing: -0.05em;
+    padding: 11% 5% 0 11%;
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
